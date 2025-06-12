@@ -1,0 +1,2529 @@
+[
+  {
+    "name": "Acid Splash",
+    "level": 0,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Aid",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Alarm",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Alter Self",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Animal Friendship",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Animal Messenger",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Animal Shapes",
+    "level": 8,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Animate Dead",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Animate Objects",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Antilife Shell",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Antimagic Field",
+    "level": 8,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Antipathy/Sympathy",
+    "level": 8,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Arcane Eye",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Arcane Gate",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Arcane Lock",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Armor of Agathys",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Arms of Hadar",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Astral Projection",
+    "level": 9,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Augury",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Aura of Life",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Aura of Purity",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Aura of Vitality",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Awaken",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Bane",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Banishing Smite",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Banishment",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Barkskin",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Beacon of Hope",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Beast Sense",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Bestow Curse",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Bigby's Hand",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Blade Barrier",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Blade Ward",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Bless",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Blight",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Blinding Smite",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Blindness/Deafness",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Blink",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Blur",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Branding Smite",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Burning Hands",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Call Lightning",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Calm Emotions",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Chain Lightning",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Charm Person",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Chill Touch",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Chromatic Orb",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Circle of Death",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Circle of Power",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Clairvoyance",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Clone",
+    "level": 8,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Cloud of Daggers",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Cloudkill",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Color Spray",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Command",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Commune",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Commune with Nature",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Compelled Duel",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Comprehend Languages",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Compulsion",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Cone of Cold",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Confusion",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Conjure Animals",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Conjure Barrage",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Conjure Celestial",
+    "level": 7,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Conjure Elemental",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Conjure Fey",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Conjure Minor Elementals",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Conjure Volley",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Conjure Woodland Beings",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Contact Other Plane",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Contagion",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Contingency",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Continual Flame",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Control Water",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Control Weather",
+    "level": 8,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Cordon of Arrows",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Counterspell",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Create Food and Water",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Create or Destroy Water",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Create Undead",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Creation",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Crown of Madness",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Crusader's Mantle",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Cure Wounds",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Dancing Lights",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Darkness",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Darkvision",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Daylight",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Death Ward",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Delayed Blast Fireball",
+    "level": 7,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Demiplane",
+    "level": 8,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Destructive Wave",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Detect Evil and Good",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Detect Magic",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Detect Poison and Disease",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Detect Thoughts",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Dimension Door",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Disguise Self",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Disintegrate",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Dispel Evil and Good",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Dispel Magic",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Dissonant Whispers",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Divination",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Divine Favor",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Divine Word",
+    "level": 7,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Dominate Beast",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Dominate Monster",
+    "level": 8,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Dominate Person",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Drawmij's Instant Summons",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Dream",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Druidcraft",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Earthquake",
+    "level": 8,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Eldritch Blast",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Elemental Weapon",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Enhance Ability",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Enlarge/Reduce",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Ensnaring Strike",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Entangle",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Enthrall",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Etherealness",
+    "level": 7,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Evard's Black Tentacles",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Expeditious Retreat",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Eyebite",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Fabricate",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Faerie Fire",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "False Life",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Fear",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Feather Fall",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Feeblemind",
+    "level": 8,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Feign Death",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Find Familiar",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Find Steed",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Find the Path",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Find Traps",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Finger of Death",
+    "level": 7,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Fire Bolt",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Fire Shield",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Fire Storm",
+    "level": 7,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Fireball",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Flame Blade",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Flame Strike",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Flaming Sphere",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Flesh to Stone",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Fly",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Fog Cloud",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Forbiddance",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Forcecage",
+    "level": 7,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Foresight",
+    "level": 9,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Freedom of Movement",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Friends",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Gaseous Form",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Gate",
+    "level": 9,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Geas",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Gentle Repose",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Giant Insect",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Glibness",
+    "level": 8,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Globe of Invulnerability",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Glyph of Warding",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Goodberry",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Grasping Vine",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Grease",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Greater Invisibility",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Greater Restoration",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Guardian of Faith",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Guards and Wards",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Guidance",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Guiding Bolt",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Gust of Wind",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Hail of Thorns",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Hallow",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Hallucinatory Terrain",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Harm",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Haste",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Heal",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Healing Word",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Heat Metal",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Hellish Rebuke",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Heroes' Feast",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Heroism",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Hex",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Hold Monster",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Hold Person",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Holy Aura",
+    "level": 8,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Hunger of Hadar",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Hunter's Mark",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Hypnotic Pattern",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Ice Storm",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Identify",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Illusory Script",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Imprisonment",
+    "level": 9,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Incendiary Cloud",
+    "level": 8,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Inflict Wounds",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Insect Plague",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Invisibility",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Jump",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Knock",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Legend Lore",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Leomund's Secret Chest",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Leomund's Tiny Hut",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Lesser Restoration",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Levitate",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Light",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Lightning Arrow",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Lightning Bolt",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Locate Animals or Plants",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Locate Creature",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Locate Object",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Longstrider",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Mage Armor",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Mage Hand",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Magic Circle",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Magic Jar",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Magic Missile",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Magic Mouth",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Magic Weapon",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Major Image",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Mass Cure Wounds",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Mass Heal",
+    "level": 9,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Mass Healing Word",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Mass Suggestion",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Maze",
+    "level": 8,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Meld into Stone",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Melf's Acid Arrow",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Mending",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Message",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Meteor Swarm",
+    "level": 9,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Mind Blank",
+    "level": 8,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Minor Illusion",
+    "level": 0,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Mirage Arcane",
+    "level": 7,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Mirror Image",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Mislead",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Misty Step",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Modify Memory",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Moonbeam",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Mordenkainen's Faithful Hound",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Mordenkainen's Magnificent Mansion",
+    "level": 7,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Mordenkainen's Private Sanctum",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Mordenkainen's Sword",
+    "level": 7,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Move Earth",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Nondetection",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Nystul's Magic Aura",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Otiluke's Freezing Sphere",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Otiluke's Resilient Sphere",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Otto's Irresistible Dance",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Pass without Trace",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Passwall",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Phantasmal Force",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Phantasmal Killer",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Phantom Steed",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Planar Ally",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Planar Binding",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Plane Shift",
+    "level": 7,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Plant Growth",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Poison Spray",
+    "level": 0,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Polymorph",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Power Word Heal",
+    "level": 9,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Power Word Kill",
+    "level": 9,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Power Word Stun",
+    "level": 8,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Prayer of Healing",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Prestidigitation",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Prismatic Spray",
+    "level": 7,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Prismatic Wall",
+    "level": 9,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Produce Flame",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Programmed Illusion",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Project Image",
+    "level": 7,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Protection from Energy",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Protection from Evil and Good",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Protection from Poison",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Purify Food and Drink",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Raise Dead",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Rary's Telepathic Bond",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Ray of Enfeeblement",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Ray of Frost",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Ray of Sickness",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Regenerate",
+    "level": 7,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Reincarnate",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Remove Curse",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Resistance",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Resurrection",
+    "level": 7,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Reverse Gravity",
+    "level": 7,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Revivify",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Rope Trick",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Sacred Flame",
+    "level": 0,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Sanctuary",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Scorching Ray",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Scrying",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Searing Smite",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "See Invisibility",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Seeming",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Sending",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Sequester",
+    "level": 7,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Shapechange",
+    "level": 9,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Shatter",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Shield",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Shield of Faith",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Shillelagh",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Shocking Grasp",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Silence",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Silent Image",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Simulacrum",
+    "level": 7,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Sleep",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Sleet Storm",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Slow",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Spare the Dying",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Speak with Animals",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Speak with Dead",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Speak with Plants",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Spider Climb",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Spike Growth",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Spirit Guardians",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Spiritual Weapon",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Staggering Smite",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Stinking Cloud",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Stone Shape",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Stoneskin",
+    "level": 4,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Storm of Vengeance",
+    "level": 9,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Suggestion",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Sunbeam",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Sunburst",
+    "level": 8,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Swift Quiver",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Symbol",
+    "level": 7,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Tasha's Hideous Laughter",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Telekinesis",
+    "level": 5,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Telepathy",
+    "level": 8,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Teleport",
+    "level": 7,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Teleportation Circle",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Tenser's Floating Disk",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Thaumaturgy",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Thorn Whip",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Thunderous Smite",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Thunderwave",
+    "level": 1,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Time Stop",
+    "level": 9,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Tongues",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Transport via Plants",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Tree Stride",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "True Polymorph",
+    "level": 9,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "True Resurrection",
+    "level": 9,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "True Seeing",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "True Strike",
+    "level": 0,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Tsunami",
+    "level": 8,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Unseen Servant",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Vampiric Touch",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Vicious Mockery",
+    "level": 0,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Wall of Fire",
+    "level": 4,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Wall of Force",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Wall of Ice",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Wall of Stone",
+    "level": 5,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Wall of Thorns",
+    "level": 6,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Warding Bond",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Water Breathing",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Water Walk",
+    "level": 3,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Web",
+    "level": 2,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Weird",
+    "level": 9,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Wind Walk",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Wind Wall",
+    "level": 3,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Wish",
+    "level": 9,
+    "requiresSave": true,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Witch Bolt",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": true,
+    "castAtHigherLevel": true
+  },
+  {
+    "name": "Word of Recall",
+    "level": 6,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Wrathful Smite",
+    "level": 1,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  },
+  {
+    "name": "Zone of Truth",
+    "level": 2,
+    "requiresSave": false,
+    "requiresAttackRoll": false,
+    "castAtHigherLevel": false
+  }
+]
