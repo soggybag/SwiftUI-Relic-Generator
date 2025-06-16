@@ -9,14 +9,31 @@ import SwiftUI
 import _SwiftData_SwiftUI
 
 struct SavedRelicsView: View {
-  @Query var relics: [Relic]
   @Environment(\.modelContext) private var context
+  @State private var searchText = ""
+  
+  @Query(filter: #Predicate<Relic> { relic in
+    // This will be updated dynamically
+    true
+  }) var relics: [Relic]
+  
+  var filteredRelics: [Relic] {
+    if searchText.isEmpty {
+      return relics
+    } else {
+      return relics.filter {
+        $0.name.localizedCaseInsensitiveContains(searchText) ||
+        $0.spell.localizedCaseInsensitiveContains(searchText) ||
+        $0.notes.localizedCaseInsensitiveContains(searchText)
+      }
+    }
+  }
   
   var body: some View {
     NavigationStack {
       List {
-        ForEach(relics) { relic in
-          NavigationLink(destination: RelicDetailView(relic: relic)) {
+        ForEach(filteredRelics) { relic in
+          NavigationLink(destination: RelicDetailView(notes: .constant(relic.notes), relic: relic)) {
             VStack(alignment: .leading) {
               Text(relic.name)
                 .font(.headline)
@@ -29,22 +46,7 @@ struct SavedRelicsView: View {
         .onDelete(perform: deleteRelics)
       }
       .navigationTitle("Saved Relics")
-      .toolbar {
-        Button("Add") {
-          let newRelic = Relic(
-            name: "Wyrmfang",
-            material: "Bone",
-            form: "Ring",
-            spell: "Fireball",
-            casterLevel: 5,
-            saveDC: 15,
-            attackBonus: 6,
-            drawback: "Burns wielder",
-            origin: "Found in the Ashen Wastes"
-          )
-          context.insert(newRelic)
-        }
-      }
+      .searchable(text: $searchText, prompt: "Search by name, spell, or notes")
     }
   }
   
@@ -57,29 +59,47 @@ struct SavedRelicsView: View {
 }
 
 
-
 #Preview {
   do {
+    // Create an in-memory container for previewing
     let config = ModelConfiguration(isStoredInMemoryOnly: true)
     let container = try ModelContainer(for: Relic.self, configurations: config)
     
+    // Insert mock relics into the preview context
     let context = container.mainContext
-    let mockRelic = Relic(
-      name: "Wyrmfang",
-      material: "Bone",
-      form: "Ring",
-      spell: "Fireball",
-      casterLevel: 5,
-      saveDC: 15,
-      attackBonus: 6,
-      drawback: "Burns wielder",
-      origin: "Ashen Wastes"
-    )
-    context.insert(mockRelic)
     
+    context.insert(
+      Relic(
+        name: "Wyrmfang",
+        material: "Obsidian",
+        form: "Amulet",
+        spell: "Fireball",
+        casterLevel: 5,
+        saveDC: 15,
+        attackBonus: 6,
+        drawback: "Scorches the wearer",
+        origin: "Unearthed from the Ashen Wastes"
+      )
+    )
+    
+    context.insert(
+      Relic(
+        name: "Frostbind",
+        material: "Ivory",
+        form: "Ring",
+        spell: "Ray of Frost",
+        casterLevel: 3,
+        saveDC: 0,
+        attackBonus: 7,
+        drawback: "Numbs the hand it’s worn on",
+        origin: "Forged by frost druids"
+      )
+    )
+    
+    // Return the view using this container
     return SavedRelicsView()
       .modelContainer(container)
   } catch {
-    return Text("Failed to load preview")
+    return Text("Failed to create preview: \(error.localizedDescription)")
   }
 }

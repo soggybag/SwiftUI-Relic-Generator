@@ -8,17 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+  var body: some View {
+    TabView {
+      RelicGeneratorView()
+        .tabItem {
+          Label("Generate", systemImage: "wand.and.stars")
         }
-        .padding()
+      
+      SavedRelicsView()
+        .tabItem {
+          Label("Saved", systemImage: "scroll")
+        }
     }
+  }
 }
 
+
 #Preview {
-    ContentView()
+  ContentView()
+    .environmentObject(SpellStore())
 }

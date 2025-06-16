@@ -12,58 +12,64 @@ import SwiftUI
 import SwiftData
 
 struct RelicGeneratorView: View {
-    @Environment(\.modelContext) private var modelContext
-    @EnvironmentObject var spellStore: SpellStore
-    @State private var currentRelic: Relic?
-
-    var body: some View {
-        NavigationView {
-            VStack(spacing: 16) {
-                if let relic = currentRelic {
-                    RelicDetailView(relic: relic)
-                    Button("Save Relic") {
-                        modelContext.insert(relic)
-                    }
-                    .buttonStyle(.borderedProminent)
+  @Environment(\.modelContext) private var modelContext
+  @EnvironmentObject var spellStore: SpellStore
+  
+  @State private var currentRelic: Relic?
+  @State private var notes: String = ""
+  
+  var body: some View {
+    NavigationView {
+      VStack(spacing: 16) {
+        if let relic = currentRelic {
+          RelicDetailView(notes: $notes, relic: relic)
+          Button("Save Relic") {
+            if let r = currentRelic {
+              let newRelic = Relic(
+                name: r.name,
+                material: r.material,
+                form: r.form,
+                spell: r.spell,
+                casterLevel: r.casterLevel,
+                saveDC: r.saveDC,
+                attackBonus: r.attackBonus,
+                drawback: r.drawback,
+                origin: r.origin,
+                notes: notes
+              )
+              modelContext.insert(newRelic)
+              print("✅ Inserted relic: \(newRelic.name)")
+              
+              // DEBUG: check how many relics are in the context
+              Task {
+                let descriptor = FetchDescriptor<Relic>()
+                if let result = try? modelContext.fetch(descriptor) {
+                  print("🧪 Total relics in SwiftData: \(result.count)")
                 } else {
-                    Text("Tap below to generate a relic")
-                        .foregroundColor(.secondary)
+                  print("⚠️ Failed to fetch relics")
                 }
-
-                Button("Generate New Relic") {
-                    currentRelic = generateRelic(from: spellStore.spells)
-                }
-                .padding()
+              }
             }
-            .padding()
-            .navigationTitle("Relic Generator")
+          }
+          .buttonStyle(.borderedProminent)
+        } else {
+          Text("Tap below to generate a relic")
+            .foregroundColor(.secondary)
         }
-    }
-
-    func generateRelic(from spells: [Spell]) -> Relic {
-        guard let spell = spells.randomElement() else {
-            fatalError("No spells available")
+        
+        Button("Generate New Relic") {
+          currentRelic = generateRelic(from: spellStore.spells)
         }
-
-        let casterLevel = max(spell.level * 2, Int.random(in: spell.level...spell.level + 5))
-        let saveDC = spell.requiresSave ? Int.random(in: 13...18) : 0
-        let attackBonus = spell.requiresAttackRoll ? Int.random(in: 4...8) : 0
-
-        return Relic(
-            name: "Relic of \(spell.name)",
-            material: ["Obsidian", "Bone", "Ivory", "Steel"].randomElement()!,
-            form: ["Ring", "Talisman", "Blade", "Orb"].randomElement()!,
-            spell: spell.name,
-            casterLevel: casterLevel,
-            saveDC: saveDC,
-            attackBonus: attackBonus,
-            drawback: ["Draws shadows", "Glows with eerie light", "Causes nightmares"].randomElement()!,
-            origin: ["Discovered in the Blight", "Traded in the Feywild", "Unearthed in a ruined temple"].randomElement()!
-        )
+        .padding()
+      }
+      .padding()
+      .navigationTitle("Relic Generator")
     }
+  }
 }
 
 
 #Preview {
-    RelicGeneratorView()
+  RelicGeneratorView()
+    .environmentObject(SpellStore())
 }
